@@ -73,20 +73,10 @@ def compare_strings_new(n):
     string_match=0
     for i in range(n):
         if a is b:
-            string_match=1
-
-    if string_match == 1:
-        print('Both String are same!')
-    else:
-        print('Both String are not Same!') 
+            pass
 
     char_list = set(a)
     membrship_test = 0
     for i in range(n):
         if 'd' in char_list:
-            membrship_test = 1
-
-    if membrship_test == 1:
-        print('Membership Test Passed!')
-    else:
-        print('Memebership Test Faile!') 
+            pass
